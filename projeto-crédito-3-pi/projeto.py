@@ -1,7 +1,5 @@
 arquivo = open("dados_agricolas.csv","r")
 linhas = arquivo.readlines()
-conteudo = arquivo.read()
-Separando = conteudo.split(",")
 
 def criandoMatriz():
    matriz = []
@@ -12,20 +10,23 @@ def criandoMatriz():
 
 matriz = criandoMatriz()
 
-def tela_inicial():
+def menu():
    print("Menu:")
    print("Para Criar o Relatório: (R)")
    print("Imprimir Relatório: (I), ATENÇÃO NECESSITA ANTES CRIAR O RELATÓRIO!")
    print("Sair: (S)")
+
+def tela_inicial():
    opcao = " "
    while  opcao == " " :
+      menu()
       opcao = input("Digite a opção desejada: ").upper()
       if(opcao =="R"):
          Relatorio()
       if(opcao == "I"):
          imprimirRelatorio()
       if(opcao == "S"):
-         exit()
+         encerramento()
       else:
          opcao = " "
 
@@ -52,13 +53,9 @@ def quantidade():
 Amostra_arroz,Amostra_soja,Amostra_milho,Amostra_feijao,Amostra_cana = quantidade()
 
 def calcularArea():
-   global menorAreaPlantada 
    menorAreaPlantada = 9999999999999999999
-   global maiorAreaPlantada 
    maiorAreaPlantada = -999999999999999999
-   global codigoMenor 
    codigoMenor = 0
-   global codigoMaior 
    codigoMaior = 0
    for i in range(1,len(matriz)):
       dado = int(matriz[i][2])
@@ -130,6 +127,10 @@ def imprimirRelatorio():
    linhas = relatorio.readlines()
    for i in range(len(linhas)):
       print(linhas[i])
+
+def encerramento():
+   print("Programa Encerrado!")
+   exit()
 
 
 tela_inicial()
