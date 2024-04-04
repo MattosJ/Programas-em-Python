@@ -134,3 +134,4 @@ def encerramento():
 
 
 tela_inicial()
+arquivo.close()
