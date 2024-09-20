@@ -1,0 +1,23 @@
+Variáveis e Tipos de Dados:
+  No python existem algumas regras de definições de váriaveis e etc:
+   O primeiro caractere precisa ser uma letra
+   Não pode conter espaços em branco
+   Aceita undCore , não podendo ser o mesmo.
+   Pode ter número no meio.
+   É case sensitive. Nome != nome  
+   A recomendação é que  váriaveis comecem com minusculo.
+
+# para adicionar comentários de linha.
+
+inteiros, pontos flutuantes, strings, booleano, número complexo e outros.
+
+Operadores Aritméticos
++ soma
+- subtração
+*multiplicação
+/ divisão
+// divisão inteira
+%  resto da divisão
+** Potenciação 
+
+Existem ordem de precedência. (igual da matemática)
