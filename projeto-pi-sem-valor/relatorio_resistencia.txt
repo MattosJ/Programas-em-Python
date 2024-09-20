@@ -1,0 +1,5 @@
+Existem: 21 Acos
+Existem: 17 Cimentos
+Existem: 22 Tijolos
+Existem: 18 Concretos
+Existem: 22 Madeiras
