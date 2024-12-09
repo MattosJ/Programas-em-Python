@@ -1,0 +1,337 @@
+Aula 0:
+Apresemtação do curso em si; explicando um pouco do que vai acontecer no curso.
+O curso é voltado com aulas téoricas e aulas práticas.
+
+Aula 1:
+No curso será usado o google colab.
+
+Google colab
+  Ele apresenta o google Colab.
+
+Aula 2:
+  Sintaxe básica
+    Podemos usar ' apas simples ou "
+    Usamos \n para pular linha.
+
+
+Aula 3 operadores
+
+Aula 4 variáveis
+
+Aula 5 Tipos de dados:
+- listas são criadas usando [];
+- Tuplas são criadas usando ();
+- Dicionários são criados usando {};
+Esses tipos de dados podem receber qualquer tipo de informação, inclusive operações aritméticas.
+Tuplas são imutáveis
+
+Aula 6 nomeação de variáveis:
+  Podemos nomear variáveis de dados de diversas formas:
+  Declarar as variáveis em uma única linha de comando;
+  Atribuir um valor à diversas variáveis;
+  Declarar usando lista;
+  Combinar variáveis;
+  Operar com operadores matemáticos;
+  Muitos outros;
+
+Aula 7 Tipo de informação:
+  Text tyoe str;
+  Numeric types : int float complex;
+  sequence types : list, tuple , range;
+  Mapping type : dict;
+  Boolean type : bool;
+  Binary types : bytes, bytearray, memoryview.
+
+Aula 8 comando Round:
+  Quando trabalhamos com números flutuantes, podemos arredonda para o  valor mais próximo, usando um comando nativo do python.
+    round(valor,número de casas).
+
+Aula 9 comando Len:
+  A função len() retorna a quantidade de elementos de qualquer lista em Python, essa é mais uma função built-in e disponível em qualquer parte dos nossos códigos.
+
+Aula 10 Fatiamento de strings:
+  Strings são listas de bytes representando caracteres.
+  Podemos acessar suas posições usando colchetes.
+    string[Posição Inicial: Posição Final]
+
+Aula 11 Manipulação de Strings:
+  Um tipo de dados bastante usado no dia a dia são as strings, ou cadeias de caracteres (ou sequência de caracteres). O tipo de dados string, ou str como é chamado em python, possui várias operações úteis associadas a ele. Essas operações tornam python uma linguagem bastante propícia para manipulação de textos. Algumas funções utilizadas:
+    replace() => Substituir.
+    stratswith() => verificar se começa com.
+    endswith() => verificar o fim.
+    count() => contar palavras/ letras.
+    capitalize() => tronsforma o texto.
+    isdigit() => verificar se existi digitos em uma string.
+    isalnum() => Verificar se só tem valores alfanúmericos.
+    upper() => transforma para maiusculo.
+    lower() => transforma em minusculo.
+    find() => procurando algo.
+    strip() => remover espaço no fim e no começo.
+    split() => vai quebrar a nossa string no parametro definido.
+
+Aula 12 Comando input :
+  A função input() recebe como parâmetro uma string que será mostrada como auxílio, geralmente o informado que tipo de dado o programa está aguardando receber.
+  input()
+
+Aula 13 Operadores de comparação:
+  Os operadores de comparação são usados para comparar dois valores:
+    == igual A
+    != diferente 
+    > maior 
+    < Menor 
+    >= Maior ou igual
+    <= Menor ou igual
+
+Aula 14 Operadores lógicos:
+  Os operadores lógicos são usados para combinar instruções condicionais:
+    and (retorna True se ambas as declarações forem verdadeiras)
+    or (retorna True se ao menos um das declarações for verdadeira)
+    not (se True retorna False, se False retorna True)
+
+Aula 15 Operadores de identidade:
+  Os operadores de ientidade são usados para comparar os objetos, não se forem iguais, mas se forem realmente o mesmo objeto, com a mesma localização de memória:
+    is (retorna True se ambas as variáveis forem o mesmo objeto)
+    is not (retorna True se ambas as variáveis não forem o mesmo objeto)
+
+Aula 16 Operadores de Associação :
+  Os operadores de associação são usados para testar se uma sequência é apresentada em um objeto:
+    in ( retorna True se uma sequência com o valor especificado estiver presente no objeto)
+    not in ( retorna True se uma sequência com o valor especificado não estiver presente no objeto)
+
+Aula 17 Manipulando listas:
+  As listas são usadas para armazenar vários itens em uma única variável.
+  As listas são um dos 4 tipos de dados internos do Python usados para armazenar coleções de dados, os outros 3 são Tuple , Set e Dictionary, todos com qualidades e usos diferentes.
+  Comando mais utilizados:
+    Append() - Para Adcionar um item ao final da lista.
+    len() - Calcular o tamanho da lista.
+    [] - Acessar posições.
+    del() - Excluir um elemento.
+    Clear() - Limpar a lista.
+    insert() - Para inserir um item de lista em um índicce especificado.
+    extend() - Anexar elementos de outra lista à lista atual.
+    remove() - Remove o item especificado.
+    pop() - Remove o índice especificado.
+    sort() - Ordena os valores.
+    copy() - Faz uma copia da lista.
+    index() - Retorna o index do elemento da lista.
+
+Aula 18 Pacote externo Datetime:
+  O datetime módulo fornece Classes para manipulação de datas e horas.
+
+Aula 19 Pacote Externo Time:
+  Este módulo fornece várias funções relacionadas ao tempo.
+
+Aula 20 Pacote Externo Math:
+  O Pytohn possui um conjunto de funções matemáticas integradas, incluindo um extenso módulo matemático, que permite realizar tarefas matemáticas em números.
+
+Aula 21 Pacote Externo Random:
+  Este módulo implementa geradores de números pseudo-aleatórios para várias distribuições.
+
+Aula 22 Pacote Externo Statistics:
+  Este módulo fornece funções para calcular estatísticas matemáticas de dados numéricos e interage com as listas.
+
+Aula 23 Condições IF:
+  if é a declaração mais simples de tomada de decisão;
+  Ele é usado para decidir se uma determinada instrução ou bloco de instruções será executado ou não, ou seja, se uma determinada condição for verdadeira, um bloco de instruções será executado, caso contrário não.
+
+  if condição:
+    declaraçãoa serem executadas se
+    condição é verdadeira
+
+    ex: se chover:
+          eu levo o guarda chuvas
+        se não:
+          eu não levo o guarda chuvas
+    
+    quando você está executando um comando vai ter a identação para te dizer que o comando será executado ou não em função da condição acima.
+    Você pode utilizar quantos elif´s você quiser dentro de uma condição if.
+    O else é sempre o último caso.
+
+Aula 24 parte 1 Estrutura de Loop for:
+  O loop for do Python é usado para travessia sequencial, ou seja, é usado para iterar sobre um iterável como string, tupla, listas, etc.Ele se enquadra na categoria de iteração definida. Iterações definidas significam que o número de repetições é especificado explicitamente com antecedência.
+
+  for variável in objeto:
+    loop
+
+Aula 24 Parte 2 Estrutura de loop for:
+
+Aula 24 parte 3 Estrutura de loop for:
+
+Aula 25 parte 1 Estrutura de Loop While:
+  Python While loop é usado para executar um bloco de instrução repetidamente até que uma determinada condição seja satisfeita. E quando a condição se torna falsa, a linha imediatamente após o loop no programa é executada não é especificado explicitamente com antecedência.
+
+    while expressão:
+      loop
+
+  Se você não definir uma condição de parada o seu loop será infinito.
+Aula 25 parte 2 Estrutura de Loop While:
+
+Aula 26 Estrutura de quebra Break e Continue:
+  O uso de loops no python automatiza e repete as tarefas de maneiras eficiente. Mas, ás vezes, pode surgir uma condição em que você deseja sair completamente do loop, pular uma iteração ou ignorar essa condição. Isso pode ser feito por instruções de controle de loop. As Instruções de controle de loop alteram a execução de sua sequência normal. Quando a execução sai de um escopo, todos os objetos automáticos que foram criados nesse escopo são destruídos. Python suporta as seguintes instruções de controle.
+
+Aula 27 Estrutura de funções:
+  Uma função é um bloco de código que só é executado quando é chamado.
+  Você pode passar dados, conhecidos como parâmetros, para a função.
+  Uma função pode retornar dados como resultado.
+
+Aula 28 Estrutura Lambda:
+  Uma função lambda é uma pequena função anônima.
+  Uma função lambda pode receber qualquer número de argumentos, mas pode ter apenas uma expressão.
+  E ela só faz uma única coisa.
+
+Aula 29 Estrutura Try:
+  O try permite testar um bloco de código quanto a erros.
+  o except permite que você lide com o erro.
+  O else permite executar código quando não há erro.
+  O finally permite que você execute o código, independentemente do resultado dos blocos try e except.
+
+Aula 30 Estrutura de Classes/Objetos:
+  Python é uma linguagem de programação orientada a objetos.
+  Quase tudo em Python é um objeto, com suas propriedades e métodos.
+  Uma classe é como um construtor de objetos, ou um "projeto" para criar objetos.
+
+Aula 31 Módulos/pacotes:
+  Considere um módulo como sendo o mesmo que uma biblioteca de código.
+  Para instalar um pacote utilize o 'pip install'
+  No cmd De o comando pip install (nome da biblioteca)
+
+Aula 32 Print formatado:
+  Existe diversas formas de utilizar prints no python.
+
+Aula 33 Overview Pandas:
+  Iremos analisar a perfomace de estudantes usando o Pandas.
+
+  df = pd.read_csv('nome do arquivo em csv ou excel')
+  para ler o arquivo.
+
+  type(df)
+  Ver o tipo do objeto criado.
+
+  df.head()
+  Para ver as 5 primeiras linhas.
+
+  df.tail()
+  Para ver as 5 últimas linhas.
+
+  df.shape()
+  quantidade de linhas e colunas do dataFrame.
+
+  df.columns()
+  Mostra o nome das colunas.
+
+  df.duplicated()sum()
+  Verifica se tem alugma linha duplicada e diz a quantidade de linhas duplicadas.
+
+  df.info()
+  informações genericas do dataFrame
+
+  df.isna()sum()
+  Verifica se tem NaN e diz quantos.
+
+  df.describe()  
+  Dar um sumário estatistico dos dados para cada uma das colunas númericas 
+
+  df.describe(include = 'all')
+  sumário estatístico incluse para as variáveis categóricas.
+
+  df.nunique()
+  quantidade de valores únicos em cada coluna.
+
+  df['parental level of education'].unique()
+  valores unicos da coluna especificada.
+
+  df.gender.value_counts()
+  frequência entre os gêneros.
+
+  provas = [ nome da coluna]
+
+  df = df.sort_values(by= provas, ascending = False)\.reset_index(drop = True)
+  Ordena o dataset
+
+  df['mean'] = df[provas].mean(axis = 1)
+  coluna com a média das provas.
+
+  df head()
+  
+  df.query(condição)
+  consulta
+
+  df.groupby(by = 'gender')[provas].agg([np.mean,np.median]).t
+
+Aula 32 Matplotlib parte 1
+  
+
+Aula 33 matplotlib parte 2
+
+Aula 34  Introdução a Seaborn 
+  O Seaborn é uma biblioteca de visualização do python baseado no matplotlib. Ele provê uma interface de alto nível para construção de gráficos estatistico atrativos e informativos.
+
+Aula 35 Medidas de tendência central
+  Estatística descritiva
+    Em sua essência, a estatística é a ciência que apresenta processos próprios para coletar, apresentar e inrerpretar adequadamente conjuntos de dados, sejam eles numéricos ou não. Podese dizer que seu objetivo é o de apresentar informações sobre dados em análise para que se tenha maior compreensão dos fatos que os mesmos representam.
+    A estatística descritiva, como o próprio nome já diz, se preocupa em descrever os dados.
+
+      Módulo 1 - Medidas de tendência central
+        As Medidas de tendência central são assim denominadas por indicarem um ponto em torno do qual se concetram os dados.
+        Média aritmética
+          a média aritmética (x) é a soma de todos os valores observados da variável dividida pelo número total de observações.
+
+Aula 37 Medidas Separatrizes
+  Estas medidas são valores que ocupam posições no conjunto de dados, em rol, dividindo-o em partes iguais.
+
+Aula 38 Medidas de dispersão
+  As medidas de dispersão auxiliam as medidas de tendência central a descrever o conjunto de dados adequadamente. Indicam se os dados estão, ou não, próximos uns dos outros.
+
+  Amplitude total 
+    A amplitude total de um conjunto de dados é a diferença entre o maior e o menor valor observado.
+  Amplitude interquartílica
+    A amplitude interquartílica é a diferença entre o terceiro eo primeiro quartil. esta medida é mais estável que a amplitude total por não considerar os valores mais extremos.
+  Amplitude Semi-interquartílica
+    A amplitude semi-interquartílica é definida como a média aritmética da diferença entre a mediana e os quartis.
+  Variância
+    Uma medida de dispersão que mostra quão distantes os valores estão da média.
+  Desvio Padrão
+    é simplesmente o resultado positivo da raiz quadrada da variância.
+
+Aula 39 Medidas de dispersão 2
+  Medidas de assimetria
+    A medida de assimetria é um indicador da forma da distribuição dos dados. Ao construir uma distribuição de frequência e/ou um histograma, está-se buscando, também, identificar visualmente, a forma da distribuição dos dados.
+    
+      Simétrica Se média = mediana = moda ou AS = 0
+      Assimétrica negativa se média <= mediana <= moda AS < 0
+      Assimétrica positiva se moda <= mediana <= média ou AS > 0
+  Medidas de curtose
+    A medida de curtose é o grau de achatamento da distribuição, é um indicador da forma desta distribuição.
+      Leptocúrtica
+        Quando a distribuição apresenta uma curva de frequência bastante fechada, com os dados fortemente concentrados em torno de seu centro, k < 0.263.
+      Mesocúrtica
+        Quando os dados estão razoavelmente concentrados em torno de seu centro, k = 0.263
+      Platicúrtica
+        Quando a distribuição apresenta uma curva de frequência mais aberta, com os dados fracamente concetrados em torno de seu centro k > 0.263
+
+Aula 40 correlação 
+  Quando fazer análise de correlação?
+    quando você tem uma hipótese de que o aumento ou queda em uma variável estão associados à evolução de outra variável, por exemplo, se aumentar o desconto, as vendas também aumentam.
+  correlação de Pearson
+    O coeficiente de correlação de Pearson pode ter um intervalo de valores de + 1 a -1. Um valor de 0 indica que não há associação entre as duas variáveis. Um valor maior que 0. Indica uma associação positiva. Isto é, à medida que o valor de uma variável aumenta, o mesmo acontece com o valor da outra variável. Um valor menor que 0 indica uma associação negativa. Isto é, à medida que o valor de uma variável aumenta, o valor da outra diminui.
+    Ela vai analisar quando os seus dados estão mais linear.
+  correlação de Spearman
+    Uma vez que a correlação de Spearman segue uma lógica monotética, e não tem pressupostos lineares como na correlação de Pearson, é possível utilizar o rs para relações não lineares. 
+
+Aula 41 Numpy 01
+  Fornece um grande conjunto de funções e operações de biblioteca qua ajudam os programadores a executar facilmente cálculos numéricos.
+  Existem dimensões
+  lista
+  matrizes
+  array com infinitas dimensões.
+Aula 42 Numpy 02
+
+Aula 43 Nuvem de palavras
+  As word clouds são representações visuais de palavras que dão maior destaque ás palavras que aparecem com mais frequência. No caso das mentimeter word clouds, as palavras adicionadas com mais frequência pelos membros das audiência através de seus smartphones. Esse tipo de visualização ajuda apresentadores a coletar informações de sua audiência com mais rapidez, destacar as respostas mais comuns e apresentar os dados de uma maneira que todos possam entender.
+Aula 44 Mapa de calor
+  O termo "mapa de calor" foi originalmente utilizado para identificar áreas com maior ou menor grau de temperatura ambiental. Serve para dimensionar a refrigeração, isolamento térmico e indicar o melhor posicionamento de pessoas e máquinas em um ambiente. Porém, como o termo entrega um entendimento mais fácil dos gráficos de frio e calor, passou a ser utilizado também em outra áreas.
+
+Aula 45 Projeto:
+Iremos analisar os dados de algumas startup que atigiram o valor de mercado de 1 bi de dolares.
+
+Aula 45 parte 2:

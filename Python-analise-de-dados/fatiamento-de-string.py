@@ -1,0 +1,11 @@
+minhastring = 'Aprender python é top!'
+print(type(minhastring))
+print(len(minhastring))
+print(minhastring[0])
+print(minhastring[1])
+print(minhastring[2])
+print(minhastring[3])
+print(minhastring[-1])
+print(minhastring[-10:])
+print(minhastring[0:10])
+print(minhastring[0:8])
